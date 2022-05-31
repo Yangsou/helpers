@@ -1,0 +1,22 @@
+{
+  "name": "@trungnam/helpers",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": ["helpers", "moment"],
+  "author": "trungnam",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.3",
+    "typescript": "^4.7.2"
+  }
+}
